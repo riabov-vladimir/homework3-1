@@ -4,6 +4,8 @@ girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
 comparison = zip(sorted(boys), sorted(girls))
 
 if len(boys) == len(girls):
-      print(*comparison, sep = '\n') 
+  for a, b in comparison:
+    print(a, b, sep=' и ')
 else:
   print('Пара найдется или всем или никому!')
+
