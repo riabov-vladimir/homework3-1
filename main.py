@@ -1,4 +1,4 @@
-# boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard']
+boys = ['Peter', 'Alex', 'John', 'Arthur', 'Richard']
 girls = ['Kate', 'Liza', 'Kira', 'Emma', 'Trisha']
 
 comparison = zip(sorted(boys), sorted(girls))
